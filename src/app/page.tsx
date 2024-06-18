@@ -5,13 +5,14 @@ import NavBar from "@/components/NavBar";
 
 export default function Home() {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-      <div className="max-w-7xl w-full text-white">
-        <NavBar/>
+    <main className="relative flex justify-center overflow-hidden mx-auto sm:px-10 px-5 min-h-screen lg:min-h-[75vh] bg-black-100">
+      
+      <div className="max-w-7xl">
+        {/* <NavBar/> */}
       
         <HeroSection/>
 
-        <Footer/>
+        {/* <Footer/> */}
       </div>
     </main>
   );
