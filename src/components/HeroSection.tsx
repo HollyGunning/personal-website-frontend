@@ -7,29 +7,24 @@ import Button from './ui/Button';
 
 const HeroSection: React.FC = () => {
   return (
-<section className="grid grid-cols-1 sm:grid-cols-12 text-white mt-24 px-0 lg:px-12 ">
+<section className="grid grid-cols-1 sm:grid-cols-12 text-white mt-24 px-1 sm:px-2 md:px-6 lg:px-12 ">
   {/* LEFT SECTION */}
-  <div className="col-span-7 md:col-span-6 sm:col-span-12 place-self-center">
-      <h1 className="uppercase text-xs tracking-widest">
+  <div className="col-span-7 md:col-span-6 sm:col-span-12 place-self-center text-center md:text-start lg:text-start">
+      <h1 className="uppercase text-xs sm:text-xs md:text-xs lg:text-sm font-semibold tracking-widest">
         Learning, One Day at a Time
       </h1>
-      <h1 className="text-3xl md:text-5xl sm:text-4xl lg:text-6xl lg:leading-normal font-bold">
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6f23cb] via-[#9382aa] to-[#74aff5]">Hello, I&apos;m Holly
+      <h1 className="mt-0 md:mt-0 lg:mt-0 text-4xl sm:text-5xl md:text-4xl lg:text-5xl lg:leading-normal font-bold">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5a3a82] via-[#725bab] to-[#cdcbff]">Hello, I&apos;m Holly
         </span>
       </h1>
-      <p className="mt-2">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ullam quisquam aspernatur hic cupiditate fugiat optio unde dolore tempore nulla, laboriosam nihil dolorem tempora fugit dignissimos, ut nam, eligendi esse.
+      <p className="mt-2 text-justify">
+      With a bachelor&apos;s degree in software development and an insatiable passion for learning, I thrive on exploring cutting-edge technologies and innovative tools. I&apos;m dedicated to continuous growth and excited to bring creative solutions to life.
       </p>
-      <div className="mt-8 lg:mt-4">
-        {/* <button className="mr-2 mb-4 lg:mb-0 px-6 py-3 w-full sm:fit md:w-2/5 lg:w-2/5 rounded bg-gradient-to-r from-[#7941bd] via-[#6d35b1] to-[#5a3a82]">
-          Get in Touch!
-        </button> */}
-      
-
+      <div className="mt-8 md:mt-0 lg:mt-4">
         <a href="#contact" className="pr-2">
           <Button 
             title="Get in Touch!"
-            icon={<FaRegMessage    />}
+            icon={<FaRegMessage  size={16}  />}
             position="left"
           />
         </a>
@@ -37,7 +32,7 @@ const HeroSection: React.FC = () => {
         <a href="#projects">
           <MagicButton
             title="View Projects"
-            icon={<VscGithubProject  />}
+            icon={<VscGithubProject size={16}/>}
             position="left"
           />
         </a>
