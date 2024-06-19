@@ -84,7 +84,7 @@ const HeroSection: React.FC = () => {
             loading="lazy"
         />
         {/* Attribution for the image from Vecteezy - Created By: ibhonkart */}
-        <a href="https://www.vecteezy.com/png/35589563-ai-generated-gal-in-modern-manga-fashion-creation-for-your-shirt">
+        <a href="https://www.vecteezy.com/png/35589563-ai-generated-gal-in-modern-manga-fashion-creation-for-your-shirt" target="_blank">
         <span className="absolute bottom-0 right-0 bg-gray-500 text-white text-xs p-1">
             Image by ibhonkart, Vecteezy
         </span>
