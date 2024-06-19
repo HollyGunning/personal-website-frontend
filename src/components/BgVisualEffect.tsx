@@ -22,7 +22,7 @@ useEffect(() => {
 }, []);
 
 return (
-  <div className="visual-effect-container">
+  <div className="overflow-hidden visual-effect-container">
     <div ref={backgroundRef} className="background-effect"></div>
   </div>
 );
