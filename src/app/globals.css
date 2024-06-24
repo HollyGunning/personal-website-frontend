@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Ensure that this CSS file is correctly imported in your TSX component */
 .bg-visual-effect {
   position: fixed;
   top: 0;
@@ -14,14 +13,15 @@
 }
 
 .background-effect {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   transition: background-position 0.3s ease;
+  transition-duration: 0.3s;
   pointer-events: none; /* Ensure this also doesn't capture mouse events */
-  background: radial-gradient(circle at 70% 70%, rgba(147, 112, 219, 0.3), transparent 40%);
+  background: radial-gradient(circle at 90% 10%, rgba(147, 112, 219, 0.3), transparent 40%);
 }
 
 .visual-effect-container {
