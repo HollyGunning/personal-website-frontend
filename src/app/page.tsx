@@ -6,8 +6,8 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    //<main className="relative overflow-hidden flex justify-center  sm:px-10 px-5 min-h-screen bg-black-100">
-    <main className="flex justify-center bg-black-100">
+    //<main className="relative overflow-hidden flex justify-center sm:px-10 px-5 ">
+    <main className="flex justify-center bg-black-100 max-h-fit scroll-smooth overflow-hidden">
       < BgVisualEffect /> 
       <div className="max-w-7xl mt-10 sm:mt-10 md:mt-0 lg:mt-0">
         {/* <NavBar/> */} 
@@ -15,6 +15,8 @@ export default function Home() {
         <SkillsSection/>
         {/* <Footer/> */}
       </div>
+
+      
     </main>
   );
 }

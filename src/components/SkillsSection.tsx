@@ -12,10 +12,10 @@ import { SiCplusplus } from "react-icons/si";
 const SkillsSection = () => {
   
   return (
-    <section id="skills" className="border-b border-t border-neutral-800 pb-32
-    mt-10 sm:mt-14 md:mt-20 lg:mt-32 mb-40 px-2 text-white">
-      <h1 id="technologies-heading" className="my-8 sm:my-8 md:my-14 lg:my-16 text-center text-4xl sm:text-5xl md:text-4xl lg:text-5xl lg:leading-normal font-semibold">Technologies</h1>
-      <div className=" flex flex-wrap items-center justify-center gap-6 ">
+    <section id="skills" className="pb-4
+     mb-0 px-20 border-b border-t border-neutral-800 text-white">
+      <h1 id="technologies-heading" className="my-4 sm:my-8 md:my-14 lg:my-16 text-center text-4xl sm:text-5xl md:text-4xl lg:text-5xl lg:leading-normal font-semibold">Technologies</h1>
+      <div className=" flex flex-wrap items-center justify-center gap-10 sm:gap-14 md:gap-16 lg:gap-10">
         <div>
           <SkillsTile tooltip="JavaScript" icon={<TbBrandJavascript className="text-yellow-400" />} />
         </div>
