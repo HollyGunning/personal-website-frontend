@@ -29,6 +29,12 @@ const config: Config = {
       '9xl': '8rem',
     },
     extend: {
+      keyframes: {
+        pulse2: {
+          '0%, 100%': { transform: 'scale(1)', boxShadow: '0 0 0 0 rgba(222, 221, 237, 0.7)', },
+          '50%': { transform: 'scale(1.05)', boxShadow: '0 0 10px 10px rgba(222, 221, 237, 0)' },
+        },
+      },
       colors:{
         black:{
           DEFAULT: '#000000',
