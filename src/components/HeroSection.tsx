@@ -14,7 +14,7 @@ const HeroSection = () => {
     <section className="min-h-[85vh] text-white">
     <div className="flex flex-col md:flex-row lg:flex-row items-center lg:items-center mt-2 sm:mt-2 md:mt-36 lg:mt-48 px-4 sm:px-6 md:px-8 lg:px-12 select-none">
       {/* LEFT */}
-      <div className="flex flex-col w-full sm:w-full md:w-1/2 LG:w-1/2 md:items-start lg:items-start lg:w-1/2 text-center md:text-start lg:text-start mb-8 lg:mb-0">
+      <div className="flex flex-col w-full sm:w-full md:w-1/2 lg:w-1/2 md:items-start lg:items-start text-center md:text-start lg:text-start mb-8 lg:mb-0">
         <h1 className="uppercase text-xs sm:text-xs md:text-xs lg:text-sm font-semibold tracking-widest">
           Learning, One Day at a Time
         </h1>
@@ -35,7 +35,7 @@ const HeroSection = () => {
             repeat={Infinity}
           />
         </h1>
-        <p className="mt-2 text-justify">
+        <p className="mt-4 px-2 sm:px-4 md:px-0 lg:px-0 text-justify text-xl tracking-tight">
         With a bachelor&apos;s degree in software development and an insatiable passion for learning, I thrive on exploring cutting-edge technologies and innovative tools. I&apos;m dedicated to continuous growth and excited to bring creative solutions to life.
         </p>
         {/* ICONS SECTION */}
